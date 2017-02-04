@@ -1,3 +1,4 @@
+
 body{
 background-color: #F29A2E;
 }
@@ -8,10 +9,49 @@ background-color: #F29A2E;
   margin: 0 auto 0 auto;
 }
 
+/* for main nav */
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  background-color: #036;
+  color: White;
+  float: left;
+  width: 100%;
+  font-family: arial, helvetica, sans-serif;
+}
+
+li {
+  display: inline;
+
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 0.2em 1em;
+background-color: #003366;
+color: #ffffff;
+text-decoration: none;
+float: left;
+border-right: 1px solid #ffffff;
+}
+
+a:hover {
+  background-color: #336699;
+color: #ffffff
+}
+
+
 .red-box {
   width: 200px;
   height: 200px;
   background-color: red;
   padding: 10px;
-
+}
+.blue-box{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  padding: 10px;
+  margin: 10px 0 0 0;
 }
