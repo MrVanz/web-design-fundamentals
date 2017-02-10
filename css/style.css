@@ -1,14 +1,23 @@
 
 body{
-background-color: #F29A2E;
+background-color: #7F0000;
 }
 .container {
   width: 800px;
-  border: 1px solid #000000;
+  border: 3px solid #000000;
   padding: 20px;
   margin: 0 auto 0 auto;
 }
 
+header
+{
+  background-color: #FF4C4C;
+
+
+}
+h1, h2 {
+
+  font-family: 'Barrio', cursive;}
 /* for main nav */
 
 ul {
@@ -43,15 +52,22 @@ color: #ffffff
 
 
 .red-box {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  padding: 10px;
+  width: 50%;
+  /*height: 200px;*/
+  background-color: #FCFCFE;
+  /*padding: 10px;*/
+  float: left;
 }
 .blue-box{
-  width: 200px;
-  height: 200px;
-  background-color: blue;
-  padding: 10px;
-  margin: 10px 0 0 0;
+  width: 50%;
+  /*height: 200px;*/
+  background-color: #FCFCFE;
+  /*padding: 10px;*/
+  /*margin: 10px 0 0 0;*/
+  float: right;
+}
+
+footer {
+  clear: both;
+  border-top :1px solid #000000;
 }
